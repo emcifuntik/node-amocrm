@@ -1,0 +1,30 @@
+{
+  "name": "amocrm_api",
+  "version": "1.0.0",
+  "description": "AmoCRM API Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emcifuntik/node-amocrm.git"
+  },
+  "keywords": [
+    "amocrm",
+    "amo",
+    "crm"
+  ],
+  "author": "Eugene Pogrebnyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emcifuntik/node-amocrm/issues"
+  },
+  "homepage": "https://github.com/emcifuntik/node-amocrm#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "public-ip": "^2.3.5",
+    "request": "^2.81.0"
+  }
+}
